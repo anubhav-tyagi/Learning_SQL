@@ -1,0 +1,23 @@
+CREATION:
+
+
+CREATE TABLE Students
+(
+StudID int,
+FirstName varchar(50),
+LastName varchar(50),
+FatherName varchar(50), 
+Address varchar(50),
+Age int,
+Course varchar(50),
+Naitonality varchar(50)
+);
+
+INSERTION:
+
+
+INSERT INTO Students (StudID, FirstName, LastName, FatherName, Address, Age, Course, Naitonality )
+VALUES ('1','Anubhav','Tyagi','Hariom Tyagi','Laxmi Enclave, Muradnagr','20','B.tech','INDIAN');
+
+
+        
