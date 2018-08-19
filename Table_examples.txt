@@ -1,0 +1,9 @@
+1.STUDENT:
+
+CREATE TABLE Student( Roll_no varchar(20) primary key, Name varchar(20), Branch varchar(20), Year int, Section varchar(20), Hostel varchar(20), Fathers_name varchar(20), address varchar(255));
+
+INSERT INTO Student VALUES('1609110020', 'Anubhav Tyagi', 'CSE', 3, 'CS1', 'Day Scholar', 'Hariom Tyagi', 'Muradnagar, Ghaziabad');
+INSERT INTO Student VALUES('1609110027', 'Ashish Kumar', 'CSE', 3,'CS1', 'Day Scholar', 'Suraj Bali', 'Ghaziabad');
+INSERT INTO Student VALUES('1609110015', 'Ankit Kumar Goel',  'CSE', 3, 'CS1', 'Day Scholar', 'Rakesh Goel', 'Ghaziabad');
+
+SELECT * FROM Student;
