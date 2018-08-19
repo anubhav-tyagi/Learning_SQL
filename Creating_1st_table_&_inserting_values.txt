@@ -1,6 +1,5 @@
 CREATION:
 
-
 CREATE TABLE Students
 (
 StudID int,
@@ -13,11 +12,13 @@ Course varchar(50),
 Naitonality varchar(50)
 );
 
-INSERTION:
 
+INSERTION:
 
 INSERT INTO Students (StudID, FirstName, LastName, FatherName, Address, Age, Course, Naitonality )
 VALUES ('1','Anubhav','Tyagi','Hariom Tyagi','Laxmi Enclave, Muradnagr','20','B.tech','INDIAN');
 
 
-        
+VIEWING TABLE:
+
+SELECT * FROM Students;        
