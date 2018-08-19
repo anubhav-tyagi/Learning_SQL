@@ -7,3 +7,17 @@ INSERT INTO Student VALUES('1609110027', 'Ashish Kumar', 'CSE', 3,'CS1', 'Day Sc
 INSERT INTO Student VALUES('1609110015', 'Ankit Kumar Goel',  'CSE', 3, 'CS1', 'Day Scholar', 'Rakesh Goel', 'Ghaziabad');
 
 SELECT * FROM Student;
+
+
+2.BOOK:
+
+CREATE TABLE Book(Book_id varchar(25) primary key, Title varchar(255), Author varchar(255), Publisher varchar(255), Cost int, Copies int);
+
+INSERT INTO Book VALUES('cs07', 'JAVA', 'Liang', 'Pearson', 250, 200);
+INSERT INTO Book VALUES('cs16', 'DBMS', 'KORTH', 'Pearson', 150, 100);
+INSERT INTO Book VALUES('cs45', 'SQL', 'ALAN', 'pearson', 50, 20);
+
+SELECT * FROM Book;
+
+3. Transaction:
+
